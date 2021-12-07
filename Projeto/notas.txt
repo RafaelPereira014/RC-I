@@ -1,0 +1,47 @@
+=> São precisos 95 endereços IPv4 públicos: (200.127.135.128/25)
+	=> 55 Design;
+	=> 24 Marketing;
+	=> 11 para R1 (NAT/PAT)
+
+	IP Address:		200.127.135.128
+	Network Address:	200.127.135.128
+	Usable Host IP Range:	200.127.135.129 - 200.127.135.254
+	Broadcast Address:	200.127.135.255
+	Total Number of Hosts:	128
+	Number of Usable Hosts:	126
+	Subnet Mask:		255.255.255.128
+	Binary Subnet Mask:	11111111.11111111.11111111.10000000
+	IP Class:		C
+	CIDR Notation:		/25
+	IP Type:		Public
+
+=> IPv6 global address => 2001:08::0/60
+	
+	IP Address:		2001:08::0/60
+	Full IP Address:	2001:0008:0000:0000:0000:0000:0000:0000
+	Total IP Addresses:	295,147,905,179,352,825,856
+	Total /64 Networks:	16
+	Network:		2001:0008:0000:0000::
+	IP Range:		2001:0008:0000:0000:0000:0000:0000:0000 - 2001:0008:0000:000f:ffff:ffff:ffff:ffff
+
+=> Private IPv4 class B => 10.175.0.0/16
+
+	IP Address:		10.175.0.0
+	Network Address:	10.175.0.0
+	Usable Host IP Range:	10.175.0.1 - 10.175.255.254
+	Broadcast Address:	10.175.255.255
+	Total Number of Hosts:	65,536
+	Number of Usable Hosts:	65,534
+	Subnet Mask:		255.255.0.0
+	Binary Subnet Mask:	11111111.11111111.00000000.00000000
+	IP Class:		B
+	CIDR Notation:		/16
+	IP Type:		Private
+
+=> todas as redes locais têm de ter IPv4 local e IPv6 global
+
+=> ligação entre o R0 e R1 tem de usar os endereços privados existentes
+
+=> The Internet is simulated with the IPv4 network 203.0.0.0/24 
+and the IPv6 network 2300:A:A:A::/64
+
