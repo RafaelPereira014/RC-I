@@ -28,7 +28,7 @@
 
 	IP Address:		10.175.0.0
 	Network Address:	10.175.0.0
-	Usable Host IP Range:	10.175.0.1 - 10.175.0.254
+	Usable Host IP Range:	10.175.0.1 - 10.175.255.254
 	Broadcast Address:	10.175.255.255
 	Total Number of Hosts:	65,536
 	Number of Usable Hosts:	65,534
