@@ -1,4 +1,4 @@
-=> São precisos 95 endereços IPv4 públicos: (200.127.135.128/25)
+=> São precisas 95 endereços IPv4 públicos: (200.127.135.128/25)
 	=> 55 Design;
 	=> 24 Marketing;
 	=> 11 para R1 (NAT/PAT)
@@ -14,6 +14,46 @@
 	IP Class:		C
 	CIDR Notation:		/25
 	IP Type:		Public
+
+
+	=>MARKETING
+	IP Address:	200.127.135.128
+	Network Address:	200.127.135.128
+	Usable Host IP Range:	200.127.135.129 - 200.127.135.190
+	Broadcast Address:	200.127.135.191
+	Total Number of Hosts:	64
+	Number of Usable Hosts:	62
+	Subnet Mask:	255.255.255.192
+	Binary Subnet Mask:	11111111.11111111.11111111.11000000
+	IP Class:	C
+	CIDR Notation:	/26
+	IP Type:	Public
+
+	=>MARKETING
+	IP Address:	200.127.135.192
+	Network Address:	200.127.135.192
+	Usable Host IP Range:	200.127.135.193 - 200.127.135.222
+	Broadcast Address:	200.127.135.223
+	Total Number of Hosts:	32
+	Number of Usable Hosts:	30
+	Subnet Mask:	255.255.255.224
+	Binary Subnet Mask:	11111111.11111111.11111111.11100000
+	IP Class:	C
+	CIDR Notation:	/27
+	IP Type:	Public
+
+	=>R1(NAT/PAT)
+	IP Address:	200.127.135.224
+	Network Address:	200.127.135.224
+	Usable Host IP Range:	200.127.135.225 - 200.127.135.238
+	Broadcast Address:	200.127.135.239
+	Total Number of Hosts:	16
+	Number of Usable Hosts:	14
+	Subnet Mask:	255.255.255.240
+	Binary Subnet Mask:	11111111.11111111.11111111.11110000
+	IP Class:	C
+	CIDR Notation:	/28
+	IP Type:	Public
 
 => IPv6 global address => 2001:08::0/60
 	

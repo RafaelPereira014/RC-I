@@ -2,14 +2,14 @@ LISTA DE ENDEREÇOS
 
 =>IPv4 público:
 
-	Design: 200.127.135.129 - 200.127.135.183 (55 endereços)
-	Marketing: 200.127.135.184 - 200.127.135.212 (29 endereços)
-	R1 (NAT/PAT): 200.127.135.214- 200.127.135.224 (11 endereços)
-	R1: 200.127.135.213 f0/0
-	*Sobram 30 endereços usáveis*
-	
-	Gateway: 200.127.135.254
+	/26 (62 endereços +2)
+	Design => 55 endereços
+	200.127.135.129 - 200.127.135.183
 
+	/27 (30 endereços +2)
+	Marketing => 29 endereços
+	200.127.135.129 - 200.127.135.157
+	
 =>IPv6 global
 
 	Design:2001:08::01 - 2001:08::37 (55 endereços)
