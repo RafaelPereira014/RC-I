@@ -5,7 +5,11 @@ LISTA DE ENDEREÇOS
 	Design: 200.127.135.129 - 200.127.135.183 (55 endereços)
 	Marketing: 200.127.135.184 - 200.127.135.207 (24 endereços)
 	R1 (NAT/PAT): 200.127.135.208- 200.127.135.218 (11 endereços)
-	*Sobram 31 endereços usáveis*
+	R1: 200.127.135.219 f0/0
+	R1: 200.127.135.220 f0/1 255.255.255.252
+	*Sobram 30 endereços usáveis*
+	
+	Gateway: 200.127.135.254
 
 =>IPv6 global
 
@@ -15,5 +19,6 @@ LISTA DE ENDEREÇOS
 =>Ligações ponto a ponto => /30 são só precisos 2 endereços
 
 =>IPv4 privado
+	
 
 	
