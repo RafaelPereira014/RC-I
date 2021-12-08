@@ -43,10 +43,10 @@
 	IP Type:	Public
 
 	=>R1(NAT/PAT)
-	IP Address:	200.127.135.192
-	Network Address:	200.127.135.192
-	Usable Host IP Range:	200.127.135.193 - 200.127.135.222
-	Broadcast Address:	200.127.135.223
+	IP Address:	200.127.135.224
+	Network Address:	200.127.135.224
+	Usable Host IP Range:	200.127.135.225 - 200.127.135.254
+	Broadcast Address:	200.127.135.255
 	Total Number of Hosts:	32
 	Number of Usable Hosts:	30
 	Subnet Mask:	255.255.255.224
