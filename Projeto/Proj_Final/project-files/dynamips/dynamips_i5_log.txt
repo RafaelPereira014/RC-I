@@ -1,0 +1,29 @@
+Dec 08 23:26:16.845 HYPERVISOR: Release 0.2.17-amd64/Darwin (tag 2017072410)
+Dec 08 23:26:16.845 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 59816.
+Dec 08 23:26:16.854 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 08 23:26:16.856 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/rafaelpereira/Desktop/UA/LECI/RC-I/RC-I/Projeto/Proj_Final/project-files/dynamips 
+Dec 08 23:26:16.856 GENERAL: working_dir=/Users/rafaelpereira/Desktop/UA/LECI/RC-I/RC-I/Projeto/Proj_Final/project-files/dynamips
+Dec 08 23:26:16.856 HYPERVISOR: exec_cmd: hypervisor working_dir /Users/rafaelpereira/Desktop/UA/LECI/RC-I/RC-I/Projeto/Proj_Final/project-files/dynamips/ddb224cc-ec55-4bb3-9cdd-3aa934435f30 
+Dec 08 23:26:16.856 GENERAL: working_dir=/Users/rafaelpereira/Desktop/UA/LECI/RC-I/RC-I/Projeto/Proj_Final/project-files/dynamips/ddb224cc-ec55-4bb3-9cdd-3aa934435f30
+Dec 08 23:26:16.856 HYPERVISOR: exec_cmd: vm create ISP 3 c7200 
+Dec 08 23:26:16.857 VM: VM ISP created.
+Dec 08 23:26:16.857 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISP 5033 
+Dec 08 23:26:16.857 HYPERVISOR: exec_cmd: c7200 get_mac_addr ISP 
+Dec 08 23:26:16.857 HYPERVISOR: exec_cmd: vm get_status ISP 
+Dec 08 23:26:16.858 HYPERVISOR: exec_cmd: vm slot_add_binding ISP 0 0 C7200-IO-FE 
+Dec 08 23:26:16.858 HYPERVISOR: exec_cmd: vm set_disk0 ISP 0 
+Dec 08 23:26:16.859 HYPERVISOR: exec_cmd: vm get_status ISP 
+Dec 08 23:26:16.859 HYPERVISOR: exec_cmd: vm set_idle_pc ISP 0x601712a8 
+Dec 08 23:26:16.860 HYPERVISOR: exec_cmd: vm set_ios ISP /Users/rafaelpereira/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Dec 08 23:26:16.860 HYPERVISOR: exec_cmd: c7200 set_mac_addr ISP ca03.337c.0000 
+Dec 08 23:26:16.860 HYPERVISOR: exec_cmd: vm set_nvram ISP 512 
+Dec 08 23:26:16.860 HYPERVISOR: exec_cmd: vm set_ram ISP 512 
+Dec 08 23:26:16.861 HYPERVISOR: exec_cmd: vm get_status ISP 
+Dec 08 23:26:16.861 HYPERVISOR: exec_cmd: vm slot_remove_binding ISP 0 0 
+Dec 08 23:26:16.861 HYPERVISOR: exec_cmd: vm get_status ISP 
+Dec 08 23:26:16.861 HYPERVISOR: exec_cmd: vm slot_add_binding ISP 0 0 C7200-IO-2FE 
+Dec 08 23:26:16.862 HYPERVISOR: exec_cmd: vm get_status ISP 
+Dec 08 23:26:16.862 HYPERVISOR: exec_cmd: vm slot_add_binding ISP 1 0 PA-2FE-TX 
+Dec 08 23:26:17.780 HYPERVISOR: exec_cmd: nio create_udp udp-26e674f0-e51a-46ea-942c-76f241ead03e 10030 127.0.0.1 10031 
+Dec 08 23:26:18.005 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP 0 0 udp-26e674f0-e51a-46ea-942c-76f241ead03e 
+Dec 08 23:26:18.006 HYPERVISOR: exec_cmd: vm get_status ISP 
