@@ -24,13 +24,15 @@ LISTA DE ENDEREÇOS
 	
 =>IPv6 global:
 	
-	/64 (2001:08::0)
+	/64 (2001:8::0)
 	Design=> 55 endereços
 	2001:08::1 - 2001:08::37
+	R0 f0/0 => 2001:0008:0000:0000:ffff:ffff:ffff:fffe
 	
 	/64 (2001:8:0:1::)
 	Marketing=> 29 endereços
 	2001:8:0:1::1 - 2001:8:0:1::1D
+	R0 f0/1 => 2001:0008:0000:0001:ffff:ffff:ffff:fffe
 
 	/126 (2001:8:0:2::)(4 endereços)
 	R0R1=> 2 endereços
