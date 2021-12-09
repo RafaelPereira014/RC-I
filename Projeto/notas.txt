@@ -15,6 +15,7 @@
 	CIDR Notation:		/25
 	IP Type:		Public
 
+=====================================================================
 
 	=>DESIGN
 	IP Address:	200.127.135.128
@@ -29,31 +30,38 @@
 	CIDR Notation:	/26
 	IP Type:	Public
 
+=====================================================================
+
 	=>MARKETING
-	IP Address:	200.127.135.192
+	IP Address:		200.127.135.192
 	Network Address:	200.127.135.192
 	Usable Host IP Range:	200.127.135.193 - 200.127.135.222
 	Broadcast Address:	200.127.135.223
 	Total Number of Hosts:	32
 	Number of Usable Hosts:	30
-	Subnet Mask:	255.255.255.224
+	Subnet Mask:		255.255.255.224
 	Binary Subnet Mask:	11111111.11111111.11111111.11100000
-	IP Class:	C
-	CIDR Notation:	/27
-	IP Type:	Public
+	IP Class:		C
+	CIDR Notation:		/27
+	IP Type:		Public
+
+=====================================================================
 
 	=>R1(NAT/PAT)
-	IP Address:	200.127.135.224
+	IP Address:		200.127.135.224
 	Network Address:	200.127.135.224
 	Usable Host IP Range:	200.127.135.225 - 200.127.135.254
 	Broadcast Address:	200.127.135.255
 	Total Number of Hosts:	32
 	Number of Usable Hosts:	30
-	Subnet Mask:	255.255.255.224
+	Subnet Mask:		255.255.255.224
 	Binary Subnet Mask:	11111111.11111111.11111111.11100000
-	IP Class:	C
-	CIDR Notation:	/27
-	IP Type:	Public
+	IP Class:		C
+	CIDR Notation:		/27
+	IP Type:		Public
+
+
+=====================================================================
 
 => IPv6 global address => 2001:08::0/60
 	
@@ -63,6 +71,8 @@
 	Total /64 Networks:	16
 	Network:		2001:0008:0000:0000::
 	IP Range:		2001:0008:0000:0000:0000:0000:0000:0000 - 2001:0008:0000:000f:ffff:ffff:ffff:ffff
+
+=====================================================================
 
 => Private IPv4 class B => 10.175.0.0/16
 
