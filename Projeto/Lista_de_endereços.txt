@@ -48,7 +48,9 @@ LISTA DE ENDEREÇOS
 	/24 (254 endereços +2)[10.175.0.0 - 10.175.0.255]
 	*para utilizar o máximo de endereços possíveis para endereços privados  
 	Design => 10.175.0.1 - 10.175.0.254
+	R0 f0/0 => 10.175.0.254 secondary
 	Marketing => 10.175.1.1 - 10.175.1.254
+	R0 f0/1 => 10.175.1.254 secondary
 	MASK= => 255.255.255.0
 
 	/30 (2 endereços +2)
