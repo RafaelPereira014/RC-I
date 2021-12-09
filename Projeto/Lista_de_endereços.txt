@@ -6,19 +6,19 @@ LISTA DE ENDEREÇOS
 	Design => 55 endereços
 	200.127.135.129 - 200.127.135.183
 	R0 => 200.127.135.190 f0/0
-
+	MASK => 255.255.255.192
 
 
 	/27 (30 endereços +2)[200.127.135.192 - 200.127.135.223]
 	Marketing => 29 endereços
 	200.127.135.193 - 200.127.135.221
 	R0 => 200.127.135.222 f0/1
-
-
+	MASK => 255.255.255.224
 	
 	/27(30 endereços +2)[200.127.135.224 - 200.127.135.255]
 	R1(NAT/PAT) => 11 endereços
 	200.127.135.225 - 200.127.135.235
+	MASK => 255.255.255.224
 
 ===========================================================================================
 	
@@ -49,8 +49,12 @@ LISTA DE ENDEREÇOS
 	*para utilizar o máximo de endereços possíveis para endereços privados  
 	Design => 10.175.0.1 - 10.175.0.254
 	Marketing => 10.175.1.1 - 10.175.1.254
+	MASK= => 255.255.255.0
 
 	/30 (2 endereços +2)
 	R0 f1/0 => 10.175.2.1 
 	R1 f0/0 => 10.175.2.2
+	MASK => 255.255.255.252
+
+=> Temos de ter 3 gateways para cada rede (ipv4 publico, ipv4 privado e ipv6)
 	
