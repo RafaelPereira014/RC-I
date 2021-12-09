@@ -1,0 +1,18 @@
+DESIGN : 10.175.0.1 10.175.0.253
+MARKETING: 10.175.1.1 10.175.1.253
+
+Router0# conf t
+
+Router0(config)# service dhcp
+
+Router0(config)# ip dhcp excluded-address 10.175.0.254 255.255.255.0
+
+Router0(config)# ip dhcp excluded-address 10.175.1.254 255.255.255.0
+
+Router0(config)# ip dhcp pool 1 
+
+Router0(dhcp-config)#network   10.175.0.0 10.175.0.253
+
+Router0(dhcp-config)#network   10.175.1.0 10.175.1.253
+
+Router1(dhcp-config)#default-router  
