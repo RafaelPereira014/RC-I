@@ -6,9 +6,13 @@ LISTA DE ENDEREÇOS
 	Design => 55 endereços
 	200.127.135.129 - 200.127.135.183
 
+	R0 => 200.127.135.184 f0/0
+
 	/27 (30 endereços +2)
 	Marketing => 29 endereços
-	200.127.135.129 - 200.127.135.157
+	200.127.135.193 - 200.127.135.221
+
+	R0 => 200.127.135.222 f0/1
 	
 =>IPv6 global
 
@@ -20,4 +24,9 @@ LISTA DE ENDEREÇOS
 =>IPv4 privado
 	
 
-	
+=>Ligações ponto a ponto
+
+10.175.0.0/30
+
+R0 =>10.175.0.1
+R1 =>10.175.0.2
