@@ -59,4 +59,9 @@ LISTA DE ENDEREÇOS
 	MASK => 255.255.255.252
 
 => Temos de ter 3 gateways para cada rede (ipv4 publico, ipv4 privado e ipv6)
+
+=> Temos de criar tabelas de roteamento nos routers
+
+
+	
 	
