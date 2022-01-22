@@ -103,38 +103,6 @@
             },
             {
                 "filters": {},
-                "link_id": "597e0a13-7149-4680-97bd-2122ba343ad0",
-                "link_style": {},
-                "nodes": [
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e0",
-                            "x": 71,
-                            "y": 20
-                        },
-                        "node_id": "58480c5f-e1b7-430b-9a80-df5112fef29d",
-                        "port_number": 0
-                    },
-                    {
-                        "adapter_number": 0,
-                        "label": {
-                            "rotation": 0,
-                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                            "text": "e2",
-                            "x": -3,
-                            "y": 25
-                        },
-                        "node_id": "06aa804a-06a9-43a3-be1c-e0b958533627",
-                        "port_number": 2
-                    }
-                ],
-                "suspend": false
-            },
-            {
-                "filters": {},
                 "link_id": "70d5ce3e-b0b8-4eb5-8290-50ecc738828b",
                 "link_style": {},
                 "nodes": [
@@ -388,6 +356,38 @@
                     }
                 ],
                 "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "f60e6ecf-f162-48cb-b5be-d8e1efee1637",
+                "link_style": {},
+                "nodes": [
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 71,
+                            "y": 20
+                        },
+                        "node_id": "9907d63e-7f9b-4c7d-bc5b-ededaf9e1eba",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e2",
+                            "x": -3,
+                            "y": 24
+                        },
+                        "node_id": "06aa804a-06a9-43a3-be1c-e0b958533627",
+                        "port_number": 2
+                    }
+                ],
+                "suspend": false
             }
         ],
         "nodes": [
@@ -447,35 +447,6 @@
                 "width": 65,
                 "x": -597,
                 "y": -313,
-                "z": 1
-            },
-            {
-                "compute_id": "local",
-                "console": 5021,
-                "console_auto_start": false,
-                "console_type": "telnet",
-                "custom_adapters": [],
-                "first_port_name": null,
-                "height": 59,
-                "label": {
-                    "rotation": 0,
-                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "PC3",
-                    "x": 12,
-                    "y": -25
-                },
-                "locked": false,
-                "name": "PC3",
-                "node_id": "58480c5f-e1b7-430b-9a80-df5112fef29d",
-                "node_type": "vpcs",
-                "port_name_format": "Ethernet{0}",
-                "port_segment_size": 0,
-                "properties": {},
-                "symbol": ":/symbols/vpcs_guest.svg",
-                "template_id": "19021f99-e36f-394d-b4a1-8aaa902ab9cc",
-                "width": 65,
-                "x": -596,
-                "y": -202,
                 "z": 1
             },
             {
@@ -959,6 +930,45 @@
                 "width": 65,
                 "x": 599,
                 "y": 62,
+                "z": 1
+            },
+            {
+                "compute_id": "local",
+                "console": null,
+                "console_auto_start": false,
+                "console_type": "none",
+                "custom_adapters": [],
+                "first_port_name": "",
+                "height": 59,
+                "label": {
+                    "rotation": 0,
+                    "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                    "text": "ServidorDNS",
+                    "x": -26,
+                    "y": -25
+                },
+                "locked": false,
+                "name": "ServidorDNS",
+                "node_id": "9907d63e-7f9b-4c7d-bc5b-ededaf9e1eba",
+                "node_type": "virtualbox",
+                "port_name_format": "Ethernet{0}",
+                "port_segment_size": 0,
+                "properties": {
+                    "adapter_type": "Intel PRO/1000 MT Desktop (82540EM)",
+                    "adapters": 1,
+                    "headless": false,
+                    "linked_clone": false,
+                    "on_close": "power_off",
+                    "ram": 1024,
+                    "usage": "",
+                    "use_any_adapter": true,
+                    "vmname": "LabComServer2"
+                },
+                "symbol": ":/symbols/vbox_guest.svg",
+                "template_id": "e60a664d-01f3-4a07-9a3d-d77f2ac03fd9",
+                "width": 65,
+                "x": -594,
+                "y": -202,
                 "z": 1
             }
         ]
