@@ -359,7 +359,7 @@
             },
             {
                 "filters": {},
-                "link_id": "f68f06d8-c1cf-4c79-849e-27feb8ad53f9",
+                "link_id": "e3a813c0-4be2-433f-909c-5496b1b6e498",
                 "link_style": {},
                 "nodes": [
                     {
@@ -371,7 +371,7 @@
                             "x": 32,
                             "y": -10
                         },
-                        "node_id": "8db92ccf-0022-4576-9316-7535e086fbb3",
+                        "node_id": "882f7028-43ba-4d7e-893a-52e037902c59",
                         "port_number": 0
                     },
                     {
@@ -959,7 +959,7 @@
                 },
                 "locked": false,
                 "name": "Internet",
-                "node_id": "8db92ccf-0022-4576-9316-7535e086fbb3",
+                "node_id": "882f7028-43ba-4d7e-893a-52e037902c59",
                 "node_type": "virtualbox",
                 "port_name_format": "Ethernet{0}",
                 "port_segment_size": 0,
@@ -972,13 +972,13 @@
                     "ram": 1024,
                     "usage": "",
                     "use_any_adapter": false,
-                    "vmname": "LabComServer2 client"
+                    "vmname": "LabComServer2 Client"
                 },
                 "symbol": ":/symbols/vbox_guest.svg",
-                "template_id": "af988f04-2ac0-4252-b26b-7d9272534b80",
+                "template_id": "d7027d9d-24dc-4bde-822f-cfadabe78f0c",
                 "width": 65,
-                "x": 596,
-                "y": 106,
+                "x": 599,
+                "y": 97,
                 "z": 1
             }
         ]
