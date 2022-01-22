@@ -914,12 +914,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "ServidorDNS",
-                    "x": -26,
+                    "text": "ServidorDNS/HTTP",
+                    "x": -53,
                     "y": -25
                 },
                 "locked": false,
-                "name": "ServidorDNS",
+                "name": "ServidorDNS/HTTP",
                 "node_id": "9907d63e-7f9b-4c7d-bc5b-ededaf9e1eba",
                 "node_type": "virtualbox",
                 "port_name_format": "Ethernet{0}",
