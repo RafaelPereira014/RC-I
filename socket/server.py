@@ -9,15 +9,21 @@ def signal_handler(sig, frame):
 
 signal.signal(signal.SIGINT, signal_handler)
 
+
+
+
 def handle_client_connection(client_socket,address): 
     print('Accepted connection from {}:{}'.format(address[0], address[1]))
     try:
         while True:
-            request_cpu = client_socket.recv(1024).decode()
-            print('Client CPU usage is : ',request_cpu)
-            request_mem = client_socket.recv(1024).decode()
-            print('Client Memory percentage is : ',request_mem)
-           
+            request = client_socket.recv(1024).decode()
+            if not request:
+            	client_socket.close()
+            else:
+            	print('Client CPU usage is : ',request)
+            	request_mem = client_socket.recv(1024).decode()
+            	print('Client Memory percentage is : ',request_mem)
+            	
     except (socket.timeout, socket.error):
         print('Client {} error. Done!'.format(address))
 
