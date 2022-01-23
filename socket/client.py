@@ -21,8 +21,13 @@ while True:
        
         cpu = psutil.cpu_percent(4)
         print('My CPU usage is: ',cpu)
+        cpu_usage = bytes(str(cpu),encoding="UTF-8")
+        sock.send(cpu_usage)
+        
         memory = psutil.virtual_memory().percent
         print('My memory percentage is: ',memory)
+        memory_percentage = bytes(str(memory),encoding="UTF-8")
+        sock.send(memory_percentage)
         
     except (socket.timeout, socket.error):
         print('Server error. Done!')

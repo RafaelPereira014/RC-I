@@ -13,14 +13,11 @@ def handle_client_connection(client_socket,address):
     print('Accepted connection from {}:{}'.format(address[0], address[1]))
     try:
         while True:
-            request = client_socket.recv(1024)
-            if not request:
-                client_socket.close()
-            else:
-                msg=request.decode()
-                print('Received {}'.format(msg))
-                msg=("ECHO: "+msg).encode()
-                client_socket.send(msg)
+            request_cpu = client_socket.recv(1024).decode()
+            print('Client CPU usage is : ',request_cpu)
+            request_mem = client_socket.recv(1024).decode()
+            print('Client Memory percentage is : ',request_mem)
+           
     except (socket.timeout, socket.error):
         print('Client {} error. Done!'.format(address))
 
