@@ -26,6 +26,7 @@ def handle_client_connection(client_socket,address):
             	
     except (socket.timeout, socket.error):
         print('Client {} error. Done!'.format(address))
+        print('Awaiting new connection :) ')
 
 ip_addr = "0.0.0.0"
 tcp_port = 5005
